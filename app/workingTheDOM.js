@@ -44,7 +44,7 @@ nameLi.innerHTML = "Jacob Imbus";
 unorderedList.append(nameLi);
 
 // task 9
-listItems[3].remove();
+document.querySelectorAll("li")[3].remove();
 
 // task 10
 const btn = document.getElementById("btn");
