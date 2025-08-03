@@ -11,3 +11,14 @@ const newLi = document.createElement("li");
 
 newLi.innerHTML = "Item 7";
 unorderedList.append(newLi);
+
+// tasks 4 - 9
+const listItems = document.querySelectorAll("li");
+
+for (let i = 0; i < listItems.length; i++) {
+  switch (i) {
+    case 0:
+      let firstItem = listItems[i];
+      firstItem.style.color = "crimson";
+  }
+}
