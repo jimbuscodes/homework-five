@@ -20,5 +20,10 @@ for (let i = 0; i < listItems.length; i++) {
     case 0:
       let firstItem = listItems[i];
       firstItem.style.color = "crimson";
+      break;
+    case 2:
+      let thirdItem = listItems[i];
+      thirdItem.style.backgroundColor = "pink";
+      break;
   }
 }
