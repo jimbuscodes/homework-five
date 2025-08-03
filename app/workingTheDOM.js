@@ -45,3 +45,11 @@ unorderedList.append(nameLi);
 
 // task 9
 listItems[3].remove();
+
+// task 10
+const btn = document.getElementById("btn");
+
+btn.innerHTML = "<i>Click Me</i>";
+btn.style.color = "white";
+btn.style.backgroundColor = "rebeccapurple";
+btn.style.borderColor = "white";
