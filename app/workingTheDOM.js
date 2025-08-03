@@ -36,3 +36,9 @@ for (let i = 0; i < listItems.length; i++) {
       break;
   }
 }
+
+// task 8
+const nameLi = document.createElement("li");
+
+nameLi.innerHTML = "Jacob Imbus";
+unorderedList.append(nameLi);
