@@ -12,7 +12,7 @@ const newLi = document.createElement("li");
 newLi.innerHTML = "Item 7";
 unorderedList.append(newLi);
 
-// tasks 4 - 9
+// tasks 4 - 7
 const listItems = document.querySelectorAll("li");
 
 for (let i = 0; i < listItems.length; i++) {
@@ -24,6 +24,15 @@ for (let i = 0; i < listItems.length; i++) {
     case 2:
       let thirdItem = listItems[i];
       thirdItem.style.backgroundColor = "pink";
+      break;
+    case 4:
+      let fifthItem = listItems[i];
+      fifthItem.style.backgroundColor = "yellow";
+      break;
+    case 6:
+      let seventhItem = listItems[i];
+      seventhItem.style.color = "royalBlue";
+      seventhItem.style.backgroundColor = "lightGray";
       break;
   }
 }
