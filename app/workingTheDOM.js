@@ -42,3 +42,6 @@ const nameLi = document.createElement("li");
 
 nameLi.innerHTML = "Jacob Imbus";
 unorderedList.append(nameLi);
+
+// task 9
+listItems[3].remove();
